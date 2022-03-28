@@ -2,10 +2,15 @@
 *jorge enrique giraldo quintana*
 ## 1) Crear dos grupos llamados <span style="color:#2f74b5">profesor</span> y <span style="color:#2f74b5">estudiante</span>
 Para crear los grupos haremos uso del comando <b>groupadd</b> seguido de la opcion -r *(crear una cuenta del sistema)* de la siguiente manera:
+
 ![VirtualBox_FedoraSistemas_ 1](https://user-images.githubusercontent.com/18295167/160483910-ae5d42b9-64b8-47d3-99a5-03a92fd6228a.png)
-##2) Crear tres usuarios llamados: diana, claudia y laura
+
+##2) Crear tres usuarios llamados: diana, claudia y 
  useradd [nombre_usuario]![punto 2a](https://user-images.githubusercontent.com/18295167/160485715-7ffc6079-6eb5-4b86-9727-c29d45988fdc.png)
+ 
 comando  /etc/passwd   parfa verificar que los usuaqrios  se hayan creaDO![2B](https://user-images.githubusercontent.com/18295167/160486044-93be009e-be16-44da-b614-51245d234eb9.png)
+
+
 ##3) Conociendo que: diana es un profesor; laura es una estudiante y claudia es un profesor y un estudiante. Adicione todos los usuarios a los grupos correspondientes.
 Para añádir un usuario a un grupo utilizamos el comando usermod 
 ![3A](https://user-images.githubusercontent.com/18295167/160486407-7326e6bd-7115-4f32-93ba-36d8d8185205.png)
