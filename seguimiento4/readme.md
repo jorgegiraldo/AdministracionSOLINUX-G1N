@@ -15,7 +15,10 @@ comando  /etc/passwd   parfa verificar que los usuaqrios  se hayan creaDO![2B](h
 Para añádir un usuario a un grupo utilizamos el comando usermod 
 
 el comando groups [nombre_usuario] PARA VERIFICAR A LOS GRUPOS QUE PERTENECE
+
  ##4) Cree dos directorios, uno para profesores (solo los profesores tienen acceso) y otro para estudiantes (profesores y estudiantes tienen acceso). Asegúrese de asignar los permisos.
+ 
+ 
  ![4A](https://user-images.githubusercontent.com/18295167/160486710-7bd69c1f-46e7-4efe-8ff1-e7c8c8b55bf2.png)
 usamos el comando chown -R usuario:grupo [carpeta]![4B](https://user-images.githubusercontent.com/18295167/160487655-0d3d0c73-aaeb-47a0-8950-128895be94d8.png)
 
