@@ -14,7 +14,11 @@ comando  /etc/passwd   parfa verificar que los usuaqrios  se hayan creaDO![2B](h
 ##3) Conociendo que: diana es un profesor; laura es una estudiante y claudia es un profesor y un estudiante. Adicione todos los usuarios a los grupos correspondientes.
 Para añádir un usuario a un grupo utilizamos el comando usermod 
 
-el comando groups [nombre_usuario] PARA VERIFICAR A LOS GRUPOS QUE PERTENECE
+el comando groups [nombre_usuario] PARA VERIFICAR A LOS GRUPOS QUE 
+
+![3A](https://user-images.githubusercontent.com/18295167/160490312-b23d2028-5d61-42a0-9b15-942ff54c564e.png)
+
+
 
  ##4) Cree dos directorios, uno para profesores (solo los profesores tienen acceso) y otro para estudiantes (profesores y estudiantes tienen acceso). Asegúrese de asignar los permisos.
  
@@ -27,3 +31,6 @@ usamos el comando chown -R usuario:grupo [carpeta]![4B](https://user-images.gith
 ![5A](https://user-images.githubusercontent.com/18295167/160489947-7e339950-191e-478f-ab51-29cb950c80e9.png)
 
 ![5B](https://user-images.githubusercontent.com/18295167/160489985-b9b12d1e-b842-4dc6-a76b-b05f9025d561.png)
+
+6) Use un editor de texto para crear archivos en los respectivos directorios, usando diferentes usuarios.
+
